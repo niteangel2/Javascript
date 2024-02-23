@@ -62,5 +62,16 @@ let firstname1 = "Vaishnavi";
 let message1 = `Hello ${firstname1}`;
 console.log(message1);
 
+## Date Objects
+
+```javascript
+// Creating a new Date object with the current date and time
+let currentDate = new Date();
+console.log(currentDate);
+
+// Creating a new Date object with a specific date and time
+let customDate = new Date('June 20 1999 07:15');
+console.log(customDate);
+
 
 
